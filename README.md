@@ -1,1 +1,2 @@
 # DAY_3_GPS_TRACKER
+This project simulates a GPS tracking system. A C-based MQTT publisher sends Bengaluru GPS coordinates every 4 seconds to a Mosquitto MQTT broker running on localhost. A Python MQTT subscriber receives the coordinates from the topic vehicle/location and visualizes the received location on Google Maps, demonstrating real-time location tracking using the MQTT publish-subscribe architecture.
